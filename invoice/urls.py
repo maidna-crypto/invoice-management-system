@@ -5,6 +5,5 @@ from .views import InvoiceViewSet
 router = DefaultRouter()
 router.register(r'invoices', InvoiceViewSet)
 
-# urlpatterns = [
-#     path('',include(router.urls)) ]
-urlpatterns = router.urls
+urlpatterns = [
+    path('',include(router.urls)) ]

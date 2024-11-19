@@ -20,5 +20,5 @@ from invoice import urls as invoice_urls
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/', include(invoice_urls)),
+    path('api/invoice/', include(invoice_urls)),
 ]

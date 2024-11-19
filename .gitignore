@@ -146,5 +146,6 @@ GitHub.sublime-settings
 .vscode/extensions.json
 
 # Django Static files and media
+/staticfiles/
 /static/
 /media/

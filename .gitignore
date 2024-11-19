@@ -144,3 +144,7 @@ GitHub.sublime-settings
 # migrations/
 # migrations.*.py
 .vscode/extensions.json
+
+# Django Static files and media
+/static/
+/media/
